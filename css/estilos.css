@@ -125,7 +125,7 @@ html{
 
 
 
-  /* Pagina Proyectos */
+  /* Estilos projects */
 
   .my-projects .projects a{
     text-decoration: none;
@@ -161,6 +161,17 @@ html{
   .my-projects .projects .owl-prev:hover,
   .my-projects .projects .owl-next:hover{
     color: #496CC9;
+  }
+
+  .my-projects .btn-secondary {
+    color: black;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease;
+  }
+
+  .my-projects .btn-secondary:hover, .btn-primary:focus, .btn-primary:active:hover {
+    border-color: transparent;
   }
 
 
