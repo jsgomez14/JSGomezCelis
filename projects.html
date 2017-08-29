@@ -25,7 +25,7 @@
             <header class="encabezado" role="banner">
                 <div class="container">
                     <a href="index.html" class="logo"><img src="images/logo1.svg" alt="Logo del sitio"></a>
-                    <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                    <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
                         <i class="fa fa-bars"></i>
                     </button>
                     <nav id="menu-principal" class="collapse">
@@ -39,34 +39,43 @@
             </header>
             <div class="texto-encabezado text-center">
                 <h1>My Projects</h1>
-                <a type="button" class="btn btn-secondary" href="">Check out my CV!</a>
+                <a type="button" class="btn btn-secondary mt-3" href="">Check out my CV!</a>
             </div>
         </section>
         <section class="projects">
             <div class="container py-2">
                 <div class="owl-carousel">
                     <div>
-                        <h2 class="text-center">App Lima Travels</h2>
-                        <img src="images/proyecto1.jpg" alt="App Lima Travels">
-                        <a type="button" class="btn btn-secondary" href="#">
-                            <i class="fa fa-github" aria-hidden="true"></i> GitHub
-                        </a>
+                        <h4 class="text-center">Mis Vacaciones</h2>
+                        <img src="images/proyecto1.jpg" alt="Mis Vacaciones">
+                        <div class="text-center">
+                            <a type="button" class="btn btn-secondary mt-2" href="https://github.com/isis2603-Backup/los-propios">
+                                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                            </a>
+                        </div>
                     </div>
         
                     <div>
-                        <h4 class="text-center">Apps Uber</h4>
-                        <img src="images/proyecto2.jpg" alt="Apps Uber">
-                        <a type="button" class="btn btn-secondary" href="#">
-                            <i class="fa fa-github" aria-hidden="true"></i> GitHub
-                        </a>                        
+                        <h4 class="text-center">Well-Col</h4>
+                        <img src="images/proyecto2.jpg" alt="Well-Col">
+                        <div class="text-center">
+                            <a type="button" class="btn btn-secondary mt-2" href="https://github.com/jjcastro/well-col">
+                                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                            </a>
+                        </div>                       
                     </div>
         
                     <div>
-                        <h4 class="text-center">App Pizza Perú</h4>
-                        <img src="images/proyecto3.jpg" alt="App Pizza Perú">
-                        <a type="button" class="btn btn-secondary" href="#">
-                            <i class="fa fa-github" aria-hidden="true"></i> GitHub
-                        </a>      
+                        <h4 class="text-center">AIgrowth</h4>
+                        <img src="images/proyecto3.jpg" alt="AIgrowth">
+                        <div class="text-center">
+                            <a type="button" class="btn btn-secondary mt-2" href="https://github.com/jpgonzalez14/Back-End_Aigrowth">
+                                <i class="fa fa-github" aria-hidden="true"></i> Back-end
+                            </a>
+                            <a type="button" class="btn btn-secondary mt-2" href="https://github.com/jpgonzalez14/aigrowth">
+                                <i class="fa fa-github" aria-hidden="true"></i> Front-end
+                            </a>
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -82,7 +91,7 @@
             margin: 0,
             nav: true,
             autoWidth: false,
-            navText: ['<i class="fa fa-arrow-circle-o-left" title="Anterior"></i>', '<i class="fa  fa-arrow-circle-o-right" title="Siguiente"></i>'],
+            navText: ['<i class="fa fa-arrow-circle-o-left" title="Preveous"></i>', '<i class="fa  fa-arrow-circle-o-right" title="Next"></i>'],
             responsive: {
                         0: {
                             items: 1
