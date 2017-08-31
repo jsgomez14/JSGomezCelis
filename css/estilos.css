@@ -1,3 +1,5 @@
+<!-- Felipe Iregui: Aunque hizo todo lo responsive y estilos bien el html, existenmejores formas de hacerlo con javascript propio del cual va a tener más control. -->
+<!-- Felipe Iregui: Los llamados de clases y ids estan bien especificos, me parece buen practica. -->
 html{
     font-size: 15px;
     color: #111111;
